@@ -39,7 +39,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ title, details, icon }) => (
 
 const AboutSection: React.FC = () => {
   return (
-    <section id="about" className='mb-20'>
+    <section id="about" className='mb-20 max-w-7xl'>
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (

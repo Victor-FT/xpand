@@ -74,6 +74,7 @@ const config = {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, #32572D 0%, #7DBB5D 100%)',
+        'custom-gradient-2': 'linear-gradient(90deg, #8EED5D 0%, #7DBB5D 100%)',
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",

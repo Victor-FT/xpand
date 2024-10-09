@@ -24,9 +24,8 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
             <ul className="text-gray-600">
               <li><Link href="https://central.xpandtec.com.br/central_assinante_web/login" target="_blank">Área do Cliente</Link></li>
-              <li><Link href="/contrato">Contrato e regulamentos</Link></li>
               <li><Link href="https://wa.me/559591312670" target="_blank">Fale conosco</Link></li>
-              <li><Link href="/privacidade">Política de privacidade</Link></li>
+              <li><Link href="/termos_de_uso.pdf" target="_blank">Política de privacidade</Link></li>
               <li><Link href="https://fast.com/pt/" target="_blank">Teste velocidade internet</Link></li>
             </ul>
           </div>

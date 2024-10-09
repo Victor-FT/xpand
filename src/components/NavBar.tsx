@@ -39,7 +39,7 @@ const Navbar = () => {
             <div className="ml-10 flex items-baseline space-x-4">
               <Link href="#inicio" className={`${isScrolled ? 'text-black hover:text-gray-700' : 'text-white hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>INÍCIO</Link>
               <Link href="#planos" className={`${isScrolled ? 'text-black hover:text-gray-700' : 'text-white hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>PLANOS</Link>
-              <Link href="#Contato" className={`${isScrolled ? 'text-black hover:text-gray-700' : 'text-white hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>CONTATO</Link>
+              <Link href="https://wa.me/559591312670" className={`${isScrolled ? 'text-black hover:text-gray-700' : 'text-white hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>CONTATO</Link>
               <Link href="https://central.xpandtec.com.br/central_assinante_web/login" className={`${isScrolled ? 'text-black hover:text-gray-700' : 'text-white hover:text-gray-300'} px-3 py-2 rounded-md text-sm font-medium`}>2ª VIA BOLETO</Link>
             </div>
           </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <Link href="#inicio" className="text-black hover:bg-gray-300 hover:text-black block px-3 py-2 rounded-md text-base font-medium">INÍCIO</Link>
             <Link href="#planos" className="text-black hover:bg-gray-300 hover:text-black block px-3 py-2 rounded-md text-base font-medium">PLANOS</Link>
-            <Link href="#Contato" className="text-black hover:bg-gray-300 hover:text-black block px-3 py-2 rounded-md text-base font-medium">CONTATO</Link>
+            <Link href="https://wa.me/559591312670" className="text-black hover:bg-gray-300 hover:text-black block px-3 py-2 rounded-md text-base font-medium">CONTATO</Link>
             <Link href="https://central.xpandtec.com.br/central_assinante_web/login" className="text-black hover:bg-gray-300 hover:text-black block px-3 py-2 rounded-md text-base font-medium">2ª VIA BOLETO</Link>
             <Link href="https://central.xpandtec.com.br/central_assinante_web/login" passHref>
               <button className="w-full bg-custom-gradient text-white py-2 px-4 rounded-lg font-bold shadow-lg hover:opacity-90 transition-opacity duration-300 mt-4">

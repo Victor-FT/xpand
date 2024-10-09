@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-[90vh] flex flex-col justify-center items-center text-center text-white overflow-hidden font-yorkten-slab">
+    <section id="inicio" className="relative min-h-[90vh] flex flex-col justify-center items-center text-center text-white overflow-hidden font-yorkten-slab">
       <Image
         src="/banner.jpg" // Replace with your actual image path
         layout="fill"

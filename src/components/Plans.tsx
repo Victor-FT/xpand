@@ -35,7 +35,7 @@ const PlanCard: React.FC<Plan> = ({ speed }) => (
 
 const PlansSection: React.FC = () => {
   return (
-    <section id="plans" className="py-20 w-full max-w-7xl">
+    <section id="planos" className="py-20 w-full max-w-7xl">
       <div className="px-4 shadow-xl rounded-3xl">
         <h2 className="text-3xl md:text-4xl mb-12">Nossos <span className='text-[#408F4E] font-bold'>Planos</span></h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 p-8">
